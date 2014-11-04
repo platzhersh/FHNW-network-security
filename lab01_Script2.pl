@@ -12,4 +12,3 @@ my $resolver = new Net::DNS::Resolver();
 my $reply = $resolver->search( $target );
 
 print $reply->print."\n";
-
